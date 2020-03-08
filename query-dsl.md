@@ -12,4 +12,4 @@ Elasticsearch提供了基于JSON的完整查询DSL（特定于域的语言）来
 复合查询子句包装其他叶查询或复合查询，并用于以逻辑方式组合多个查询（例如[`bool`](https://www.xxx.com)或[`dis_max`](https://www.xxx.com)查询），
 或更改其行为（例如[`constant_score`](https://www.xxx.com)查询）。
 
-查询子句的行为会有所不同，具体取决于它们是在[`查询上下文中还是在过滤器上下文中`](https://www.xxx.com)使用。
+查询子句的行为会有所不同，具体取决于它们是在[`查询上下文中还是在过滤器上下文中`](query-dsl/query-filter-context.md)使****用。
