@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [介绍](README.md)
 * [设置Elasticsearch](setup.md)
     * [安装Elasticsearch](setup/install.md)
     * [配置Elasticsearch](setup/configuration.md)
@@ -13,7 +13,12 @@
 * [升级Elasticsearch](upgrade.md)
 * [查询DSL](query-dsl.md)
     * [查询和过滤上下文](query-dsl/query-filter-context.md)
-* [API约定](api-conventions.md)
+* [REST APIs](rest-apis.md)
+    * [API约定](rest-apis/api-conventions.md)
+        * [多个索引](rest-apis/api-conventions/multi-index.md)
+        * [索引名称支持日期函数](rest-apis/api-conventions/date-math-index-names.md)
+        * [常用选项](rest-apis/api-conventions/common-options.md)
+    * [cat APIs](rest-apis/cat.md)
 * [文件API](docs.md)
 * [搜索API](aggregations.md)
 * [索引API](indices.md)
